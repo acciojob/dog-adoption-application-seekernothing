@@ -8,6 +8,41 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form>
+        <h2>Dog Adoption Application</h2>
+
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <input type="text" id="address" placeholder="Address" required>
+
+        <!-- Checkbox for Dog Experience -->
+        <label>
+            <input type="checkbox" id="dog-experience" value="Have you ever lived with a Dog before?">
+            Have you ever lived with a Dog before?
+        </label>
+
+        <!-- Multi-Select for Preferred Breeds -->
+        <label for="breeds">Please select your preferred breeds:</label>
+        <select id="breeds" >
+            <option value="Golden Retriever">Golden Retriever</option>
+            <option value="Labrador Retriever">Labrador Retriever</option>
+            <option value="German Shepherd">German Shepherd</option>
+            <option value="Beagle">Beagle</option>
+            <option value="Bulldog">Bulldog</option>
+        </select>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
